@@ -15,7 +15,7 @@ public class Basics
         driver.navigate().back();  //Navigate to back URL
         driver.navigate().forward();  // Navigate to forward URL.
 
-        Thread.sleep(3000);     //Waiting time for 2 Seconds
+        Thread.sleep(4000);     //Waiting time for 2 Seconds
         driver.navigate().refresh();      // Refresh the current URL
 
     }
